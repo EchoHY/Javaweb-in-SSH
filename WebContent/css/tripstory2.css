@@ -1,0 +1,78 @@
+/*  1.总体布局的控制  */
+#container{
+	width:1200px;
+	margin:0px auto;
+}
+#header{
+	height:200px;
+	border:3px dotted blue;
+	padding:10px;
+	background-color:pink;
+}
+#body{
+	height:1500px;
+	background-image:url(../img/tsbg.jpg);
+	background-repeat:repeat-y;
+}
+#footer{
+	height:150px;
+	border:3px dotted blue;
+	padding:10px;
+	background-color:pink;
+}
+/*  2.图文交错布局的控制*/
+.pic{
+	width:450px;
+	height:250px;
+	margin:50px;
+	border:10px double purple;
+	background-repeat:none;
+}
+.word{
+	background-image:url(../img/juanzhou.png);
+	width:410px;
+	height:150px;
+	margin:20px;
+	padding:80px 50px;
+	background-repeat:none;
+}
+#a{
+	float:left;
+	background-image:url(../img/1.jpg);
+}
+#b{
+	float:right;
+}
+#c{
+	float:left;
+	clear:both;
+}
+#d{
+	float:right;
+	background-image:url(../img/2.jpg);
+}
+#e{
+	float:left;
+	background-image:url(../img/3.jpg);
+	clear:both;
+}
+#f{
+	float:right;
+}
+#g{
+	float:left;
+	clear:both;
+}
+#h{
+	float:right;
+	background-image:url(../img/4.jpg);
+}
+/*  3.p标签的控制  */
+.title{
+	font:30px/30px "隶书";
+	text-align:center;
+}
+.text{
+	font:20px/20px "宋体";
+	text-indent:40px;
+}

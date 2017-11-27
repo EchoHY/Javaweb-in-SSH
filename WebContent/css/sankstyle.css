@@ -1,0 +1,52 @@
+#echo{
+
+float:left;
+	height:550px;
+	width:60%;
+	margin-top:20px;
+	font-family:	SimHei ;
+	text-align:center;
+}
+#zaizheli{
+	color:black;
+	margin-left:70px;
+	margin-top:50px;
+	font-size:5em;
+	text-align:left;
+}
+#qingtingxinsheng{
+	color:black;
+	margin-left:20px;
+	margin-top:160px;
+	margin-right:20px;
+	font-size:3em;
+	text-align:right;
+	
+}
+#travel{
+	float:left;
+	width:35%;
+	height:90%;
+	padding:50px;
+	margin-top:40px;
+	margin-left:50px;
+}
+#travelright
+{
+
+	float:right;
+	width:55%;
+	height:80%;
+}
+.ano a:visited
+{
+	color:#dedede;	
+}
+.ano a:hover
+{
+	color:yellow;
+	text-decoration:none;
+
+}
+
+

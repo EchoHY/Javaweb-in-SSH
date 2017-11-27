@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+html{-webkit-text-size-adjust:none;  }
+html,body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { 
+margin:0; padding:0; }
+body{ margin:0px; padding:0px; font-size:14px; font-family:"微软雅黑", Arial; background:#ffffff; -webkit-text-size-adjust:none; /*position:relative;*/}
+ul,li,hr,table,td,tr,p{ margin:0px;  padding:0px;}
+li{ list-style:none;}
+div{zoom:1}
+
+A{text-decoration:none;}
+A:hover{ cursor:pointer;text-decoration:none;}
+
+*{margin:0;padding:0;list-style-type:none;/*transition: all 1s ease 0s;*/}
+a { text-decoration: none; outline-style: none; }
+*:focus { outline: none; }
+.clear_both{clear:both; overflow: hidden; font-size:0px; line-height:1px; height:1px;}
+.cb{ clear:both;}
+.dib{ display:inline-block; height:1px; width:100%;}
+.dib_fz{letter-spacing:0px; word-spacing:0px; font-size:0;}
+.oh{ overflow:hidden;}
+.none{ display:none;}
+.blok{ display:block;}
+
+
+.i_zgs_li{
+	display:inline-block;
+	vertical-align:top;
+	width:5%;
+	min-height:720px;
+	max-height:720px;
+	margin-right:0%;
+	position:relative;
+	cursor:pointer;
+	transition:all .4s ease 0s;
+	overflow:hidden;
+	}
+	
+.js_wzgs{width:85%;}
+
+.js_wzgs .i_zgstit{
+	width:39%;
+	min-height:340px;
+	text-align:center;
+	background:rgba(255,255,255,.6);
+	position:absolute;
+	top:50%; left:50%;
+	z-index:3;
+	margin:-200px 0 0 -22.5%;
+	transition:all .4s ease 0s;
+}
+.js_wzgs .i_zgstit .i_zgsimg{
+	width:100%;
+	height:auto;
+	line-height:0;
+	overflow:hidden;
+	}
+.js_wzgs .i_zgstit .i_zgsjs{
+	width:100%;
+	font-size:18px;
+	line-height:36px;
+	color:#333333;
+	padding-top:35px;
+	text-align:Justify;/*Firefox*/
+	text-justify:inter-ideograph;/*IE*/}
+.js_wzgs .i_zgsmc{
+	width:100%;
+	position:absolute;
+	bottom:0; left:0; z-index:5;
+	font-size:22px;
+	font-weight:lighter;
+	text-align:center;
+	color:#333333;
+	}
+.i_zgs_li .i_qhan{
+	width:85%;
+	height:25px;
+	line-height:25px;
+	font-size:16px;
+	color:#FFFFFF;
+	position:absolute;
+	top:15px;
+	right:15px;
+	text-align:right;
+	}
+.i_qhan div{
+	display:inline-block;
+	vertical-align:top;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	font-family:"新宋体"; 
+	font-size:15px;
+	background:rgba(212,19,22,.6);
+	border-radius:50%;
+	overflow:hidden;
+	color:#FFFFFF;
+	text-align:center;
+	margin-left:15px;
+	}
+
+
+/*.mr0{ margin-right:0 !important;}*/
+#test{width:40px; height:40px;font-size:100px;}
+#header img{
+	float:left;
+	width:30px;
+	height:30px;
+}
+#header,#footer{
+	width:auto;
+	height:30px;
+	font-size:18px;
+	background-color:#434343;
+	color:white;
+	padding:5px;
+}
+#footer{
+	width:auto;
+	height:16px;
+	font-size:16px;
+	color:white;
+	padding:10px;
+	text-align:right;
+}
+.newCom{
+	height:300px;
+	width:320px;
+	margin:30px 30px 30px 50px;
+	float:left;
+
+	color:white;	
+	font-size:18px;
+}
+.newImg{
+	width:320px;
+	height:240px;
+}
+.newText{
+	width:250;
+	height:30px;
+	margin-top:10px;
+	margin-left:30%;
+	padding:10px;
+	background-color:#434343;
+}
+.newText a{
+	color:white;
+}
+.hotCom a{
+	color:white;
+}
+.fristHotCom{
+	height:600px;
+	width:600px;
+	margin:60px 30px;
+	float:left;
+	font-size:18px;
+}
+.fristHotImg{
+	height:500px;
+	width:600px;
+}
+.fristHotText{
+	width:400px;
+	margin:25px 30% 0 0;
+	padding:5px;
+	background-color:white;
+	color:#434343;
+}
+.hotCom{
+	height:300px;
+	width:300px;
+	margin:30px 10px 20px 10px;
+	float:left;
+	font-size:18px;
+}
+.hotImg{
+	width:300px;
+	height:225px;
+}
+.hotText{
+	width:60%px;
+	height:25px;
+	margin:20px 30% 0 0;
+	background-color:#121212;
+	padding:5px;
+}
+.allCom{
+	height:210px;
+	width:230px;
+	margin:15px 15px;
+	float:left;
+}
+.allImg{
+	height:130px;
+	width:230px;
+}
+.allText{
+	width:100%;
+	font-size:16px;
+	padding:5px;
+	margin:10px 0 0 0;
+	color:#343434;
+}
+#allCatalog{
+	height:550px;
+	width:220px;
+	margin:25px 60px 0 0;
+	padding:15px;
+	float:right;
+	background-color:#343434;
+	color:white;
+	font-size:14px;
+}
+.activityCom{
+	height:550px;
+	width:600px;
+	margin:20px 0px 0px 20px;
+	float:left;
+	font-size:25px;
+	color:white;
+}
+.actImg{
+	height:450px;
+	width:600px;
+}
+.actText{
+	padding:10px;
+	margin:20px 0 0 0;
+	text-align:right;
+}
+#actCatalog{
+	height:500px;
+	width:200px;
+	margin:40px 0px 0px 30px;
+	background-color:#343434;
+	float:left;
+	color:white;
+	font-size:20px;
+	padding:20px;
+}
+.i_zgs_li a{
+	color:white;
+}
+
+div img{
+	width:100%;
+	height:100%;
+}
+
+
+

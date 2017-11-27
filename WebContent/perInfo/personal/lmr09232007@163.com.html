@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title> 会员信息</title>
+		<link rel="stylesheet" href="../../css/membercss.css">
+		<script>
+			function divControl(obj1, obj2, obj3) {
+				obj1.style.display = "none";
+				obj2.style.display = "none";
+				obj3.style.display = "block";
+
+			}
+
+			function colorControl(obj1, obj2, obj3) {
+				obj3.style.background = "rgba(228,228,228,1)";
+				obj2.style.background = "rgba(255,255,255,1)";
+				obj1.style.background = "rgba(255,255,255,1)";
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="kuangjia">
+			<h2 style="font-family: STKaiti ;font-size: 2em;text-align: center;padding-top:2%;">个人信息全览</h2>
+			<div id="left">
+				<div class="headimages" style="background:yellow;margin-top:10%;margin-left:30%;">
+					<img src="../../img/timg1.jpg" style="height:100%;width:100%; ">
+				</div>
+
+				<div class="knowledge1">
+					<div style="height:94%;overflow:hidden;">
+						<ul style="margin:5%;color:black;	font-size:1.4em;font-weight: 600;">
+
+							<li class="li_style">
+								<a>姓名: &nbsp&nbsp&nbsp&nbsp 刘明睿</a>
+							</li>
+							<li class="li_style">
+								<a>性别: &nbsp&nbsp&nbsp&nbsp 男</a>
+							</li>
+							<li class="li_style">
+								<a>年龄: &nbsp&nbsp&nbsp&nbsp 22</a>
+							</li>
+							<li class="li_style">
+								<a>年级: &nbsp&nbsp&nbsp&nbsp 大四</a>
+							</li>
+							<li class="li_style">
+								<a>专业: &nbsp&nbsp&nbsp&nbsp 电信</a>
+							</li>
+							<li class="li_style">
+								<a>学号: &nbsp&nbsp&nbsp&nbsp 201483291</a>
+							</li>
+							<li class="li_style">
+								<a>兴趣: &nbsp&nbsp&nbsp&nbsp 篮球,寻觅新鲜的景点</a>
+							</li>
+							<li class="li_style">
+								<a>自我描述:让旅游成为一种人生,热爱旅游,热爱人生,热爱你</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div id="right">
+				<div class="twobuttons">
+					<a id="a1" style="text-decoration: underline;color:#606dd0;font-weight: bold;background:rgba(228,228,228,1);" onmouseover="divControl(history2,mypassage,newest);colorControl(a3,a2,a1);">最新出行动态</a>
+					<a id="a2" style="text-decoration: underline;color:#606dd0;font-weight: bold;background:rgba(255,255,255,1);" onmouseover="divControl(newest,mypassage,history2);colorControl(a3,a1,a2)">历史出行记录</a>
+					<a id="a3" style="text-decoration: underline;color:#606dd0;font-weight: bold;background:rgba(255,255,255,1);" onmouseover="divControl(newest,history2,mypassage);colorControl(a2,a1,a3)">个人游记</a>
+				</div>
+
+				<div id="newest" class="passage" style="display:block;">
+
+					<div class="neirong neironga">
+
+						<div class="time neirong2">9月2日</div>
+						<div class="place neirong2">星海公园</div>
+						<div class="said neirong2">想找人聊天侃地</div>
+						<div class="money neirong2">穷游,不怎么花钱</div>
+						<div><img src="../../img/nogo.png" style="height:65px;width:65px;float:right;margin-top:-10%;"></div>
+						<div style="text-decoration:none;float:right;margin-right:3%;margin-top:2%;"><span style="color: #AAAAAA">2017.3.1</span>
+							<a href="going/going.html" style="color:blue;">.....>>></a>
+						</div>
+
+					</div>
+					</br>
+					<div class="neirong neironga">
+						<div class="time neirong2">端午节</div>
+						<div class="place neirong2">大黑山</div>
+						<div class="said neirong2">寻找一个喜欢喝酒的同学</div>
+						<div class="money neirong2">买一箱青岛啤酒</div>
+						<div style="text-decoration:none;float:right;margin-right:3%;margin-top:2%;"><span style="color: #AAAAAA">2017.3.1</span>
+							<a href="going/going2.html" style="color:blue;">.....>>></a>
+						</div>
+
+					</div>
+					</br>
+					<div class="neirong neironga">
+						<div class="time neirong2">清明节</div>
+						<div class="place neirong2">东港</div>
+						<div class="said neirong2">吹吹海风,看看春天,听听惊涛</div>
+						<div class="money neirong2">轻轨车票</div>
+						<div style="text-decoration:none;float:right;margin-right:3%;margin-top:2%;"><span style="color: #AAAAAA">2017.3.1</span>
+							<a href="going/going3.html" style="color:blue;">.....>>></a>
+						</div>
+
+					</div>
+				</div>
+
+				<div id="history2" class="passage" style="display: none;">
+					<!--每个文字放在这里-->
+					<div class="neirong neirongb">
+						<img src="../../img/yh_0.png">
+						<div class="wenzi">
+						[两人行]----大黑山
+
+						</div>
+						<img src="../../img/yh_1.png" style="position:relative;left:90%;margin-right:3%;">
+						<div style="text-decoration:none;float:right;margin-right:3%;margin-top:2%;"><span style="color: #AAAAAA">2017.3.1</span>
+							<a href="historyJourney/historyJourney.html" style="color:blue;">.....>>></a>
+						</div>
+
+					</div>
+					</br>
+					<!--每个文字放在这里-->
+					<div class="neirong  neirongb">
+						<img src="../../img/yh_0.png">
+						<div class="wenzi">
+							[五人行]----东港
+						</div>
+						<img src="../../img/yh_1.png" style="position:relative;left:90%;margin-right:3%;">
+						<div style="text-decoration:none;float:right;margin-right:3%;margin-top:2%;"><span style="color: #AAAAAA">2017.3.1</span>
+							<a href="historyJourney/historyJourney2.html" style="color:blue;">.....>>></a>
+						</div>
+
+					</div>
+					</br>
+					<!--每个文字放在这里-->
+					<div class="neirong  neirongb">
+						<img src="../../img/yh_0.png">
+						<div class="wenzi">
+							[两人行]----北山吃喝
+						</div>
+						<img src="../../img/yh_1.png" style="position:relative;left:90%;margin-right:3%;">
+						<div style="text-decoration:none;float:right;margin-right:3%;margin-top:2%;"><span style="color: #AAAAAA">2017.3.1</span>
+							<a href="historyJourney/historyJourney3.html" style="color:blue;">.....>>></a>
+						</div>
+
+					</div>
+					</br>
+				</div>
+
+				<div id="mypassage" class="passage" style="display: none;">
+					<!--每个文字放在这里-->
+					<div class="neirong neirongc">
+						<img src="../../img/yh_0.png">
+						<div class="wenzi">
+一片海 
+
+一缕风 
+
+一个梦 
+
+一个微笑向阳光
+						</div>
+						<img src="../../img/yh_1.png" style="position:relative;left:90%;margin-right:3%;">
+						<div style="text-decoration:none;float:right;margin-right:3%;margin-top:2%;"><span style="color: #AAAAAA">  2017.3.1</span>
+							<a href="JourneyDiary/tripstory_1.html" style="color:blue;">.....>>></a>
+						</div>
+
+					</div>
+					</ br>
+					<!--每个文字放在这里-->
+					<div class="neirong neirongc">
+						<img src="../../img/yh_0.png">
+						<div class="wenzi">
+2016年*月*日，我和欧阳小明同学出发前往大连市森林动物园， 当天我们玩得很愉快！我们看到了很多从前没见过的动物， 最重要的是，这趟动物园之行放松了我们的身心、巩固了我们的感情。
+
+
+						</div>
+						<img src="../../img/yh_1.png" style="position:relative;left:90%;margin-right:3%;">
+						<div style="text-decoration:none;float:right;margin-right:3%;margin-top:2%;"><span style="color: #AAAAAA">2017.3.1</span>
+							<a href="JourneyDiary/tripstory2.html" style="color:blue;">.....>>></a>
+						</div>
+
+					</div>
+					</br>
+					<!--每个文字放在这里-->
+					<div class="neirong neirongc">
+						<img src="../../img/yh_0.png">
+						<div class="wenzi">
+安静祥和 
+带着祝福 
+在一片深蓝面前 
+沉浮 
+						</div>
+						<img src="../../img/yh_1.png" style="position:relative;left:90%;margin-right:3%;">
+						<div style="text-decoration:none;float:right;margin-right:3%;margin-top:2%;"><span style="color: #AAAAAA">2017.3.1</span>
+							<a href="JourneyDiary/tripstory_1.html" style="color:blue;">.....>>></a>
+						</div>
+
+					</div>
+					</br>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="bottomBox">
+			<div class="bottom">
+				<span>Copyright&nbsp;&copy;&nbsp;2017&nbsp;ECHO回音工作室&nbsp;版权所有</span>
+			</div>
+		</div>
+
+		<div class="footBox">
+			<div class="foot">
+				<div class="footLeft">
+
+					<p>联系我们:</p>
+					<p class="footTele">0898-6608888(9:30~18:00)</p>
+					<p>大连理工大学研教楼811-ECHO回音工作室</p>
+					<p>QQ:605278714</p>
+				</div>
+				<div class="footRight">
+					<dl>
+						<dt>关于我们</dt>
+						<dd>
+							<p>了解我们</p>
+							<p>历史项目</p>
+							<p>发展历程</p>
+							<p>MyPoints</p>
+							<p>联系方式</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>我们的服务</dt>
+						<dd>
+							<p>网站建设</p>
+							<p>网络营销</p>
+							<p>移动App开发</p>
+							<p>电商运营外包</p>
+							<p>网站运营维护</p>
+							<p>程序开发</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>新闻资讯</dt>
+						<dd>
+							<p>工作室动态</p>
+							<p>Our Plans</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>伙伴招募</dt>
+						<dd>
+							<p>所有热爱编程的小伙伴！</p>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

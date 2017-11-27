@@ -1,0 +1,31 @@
+body {
+    -webkit-touch-callout: none;
+    font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    background-color: #f3f3f3;
+    line-height: inherit;
+}
+a{text-decoration: none;}
+.mainbox{
+	width:60%;
+	min-height: 700px;;
+	margin-left: 23%;
+	margin-top: 50px;
+
+}
+#artical{
+	    line-height: 1.4;
+    font-weight: 400;
+    font-size: 24px;
+    font-weight: bold;
+    font-size: 1.8em;;
+    
+}
+.time {
+	color: #8c8c8c;
+	font-size: 1.1em;
+}
+.author{
+	margin-left: 5%;;
+	color: #8c8c8c;
+	font-size: 1.1em;
+}

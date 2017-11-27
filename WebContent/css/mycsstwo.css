@@ -1,0 +1,393 @@
+.dropdown {
+    position:absolute;
+    cursor:pointer;
+    margin-left:20px;
+	margin-top:40px;
+    z-index:1;
+	font-size:15px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color:#fffacd}	
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #f0e68c;
+}
+#container2{ height:auto;
+            width:1200px;
+			margin:0px auto;}
+
+#travel {
+	width:1200px;
+    float:right;
+}
+#t1 {
+	width:295px;
+	height:100px;
+	float:left;	
+    margin:0px 5px 5px 0px;
+	background-image:url(../image_Youth/001.png );
+    background-size:100% 100%;
+}
+#t2 {
+	width:290px;
+	height:300px;
+	float:right;	
+    margin:0px 0px 8px 0px;
+	background-image:url(../image_Youth/002.png );
+    background-size:100% 100%;
+}
+#t3 {
+	width:290px;
+	height:300px;
+	float:right;	
+	margin:0px 13px 8px 0px;
+	background-image:url(../image_Youth/003.png);
+    background-size:100% 100%;	
+	}
+#t4 {
+	width:290px;
+	height:300px;
+	float:right;;	
+	margin:0px 13px 8px 0px;
+	background-image:url(../image_Youth/004.png);
+    background-size:100% 100%;	
+}
+#t5 {
+	width:295px;
+	height:300px;
+	float:left;	
+	margin:0px 0px 8px 0px;	
+	background-image:url(../image_Youth/005.png);
+    background-size:100% 100%;
+}
+#t6 {	
+    width:244px;
+	height:360px;
+	float:right;	
+	margin:0px 0px 8px 0px;	
+	
+    background-size:100% 100%;
+}
+#t6_1 {	
+    width:244px;
+	height:240px;
+	background-image:url(../image_Youth/006.png);	
+	background-size:100% 100%;
+	margin:0px 0px 8px 0px;	
+
+}
+#t6_2 {	
+    width:244px;
+	height:112px;
+	background-image:url(../image_Youth/0062.png);	
+	background-size:100% 100%;
+	margin:0px 0px 0px 0px;	
+}
+t6_2 img{width:100%;height:100%;}
+#t7 {
+    width:644px;
+	height:363px;
+    background-color:purple;
+	float:right;	
+	 margin:0px 8px 8px 0px;			
+}
+
+#t7 img{width: 100%;height: 100%;}
+#t8 {
+	width:295px;
+	height:310px;
+	float:left;	
+	margin:0px 5px 5px 0px;	
+    background-image:url(../image_Youth/008.png);
+    background-size:100% 100%;
+	}
+#t9 {
+	width:290px;
+	height:310px;
+	float:right;	
+	margin:0px 0px 8px 0px;	
+    background-image:url(../image_Youth/009.png );
+    background-size:100% 100%;
+	}
+#t10 {
+	width:290px;
+	height:310px;
+	background-color:white;
+	float:right;	
+	margin:0px 13px 8px 0px;	
+	background-image:url(../image_Youth/010.png );
+    background-size:100% 100%;
+	}
+#t11 {
+	width:290px;
+	height:310px;
+	background-color:#87CEEB;
+	float:right;	
+	margin:0px 13px 8px 0px;
+	background-image:url(../image_Youth/011.png );
+    background-size:100% 100%;	
+	}
+#t12 {
+	width:295px;
+	height:310px;
+	background-color:red;
+	float:left;	
+	margin:0px 0px 8px 0px;
+	background-image:url(../image_Youth/012.png );
+    background-size:100% 100%;	
+	}
+#t13 {
+	width:895px;
+	height:40px;
+	float:right;
+	font-size:30px;
+	margin:5px 0px 5px 0px;	
+	background-image:url(../image_Youth/013.png );
+    background-size:100% 100%;	
+    font-family: "华文行楷";
+    color: white;
+    border-radius:60%;
+
+	}
+#t13Inner { 
+    height:40px;
+    width:400px;
+	margin: 10px auto;
+	color:black; }
+#t1 img{width:80%;
+	height: 80%;
+    margin: 5% 5%;}
+#t6_2 img{width:100%;
+	height: 80%;
+    margin: 5% 0%;}
+.img img{
+     border-radius:50%;
+     width:100px;
+     height:100px;
+     margin:30px 0px; 
+        }
+.tInner{
+	width:250px;
+	height: 130px;
+    color:#434343;
+	
+	margin: 0px auto;
+}
+#photo {
+	width:1200px;
+	height:auto;
+	float:right;
+
+    }
+#pBtn{width: 1200px;
+    	height: }
+
+
+.img img:hover{   
+    z-index: 2;   
+    transform: scale(1.1);   
+    -moz-transform: scale(1.1) ;   
+    -webkit-transform: scale(1.1) ;   
+    box-shadow: -10px 10px 20px  #000000;   
+    -moz-box-shadow: -10px 10px 20px  #000000;   
+    -webkit-box-shadow: -10px 5px 20px  #000000; 
+     -moz-transition: 0.5s;   
+    -webkit-transition: 0.5s;   
+    transition: 0.5s;     
+
+
+
+}   
+
+.content{   
+    width: 1200px;    
+    height: 850px;   
+    overflow: hidden;      
+    position: relative; 
+}
+
+.content img{    
+    z-index: 1;   
+    width: 200px;   
+    height: 150px;   
+    position: absolute;   
+    padding: 5px 5px 7px 5px;   
+    background: #ffffff;   
+    /* 动画的时间 */  
+    -moz-transition: 0.5s;   
+    -webkit-transition: 0.5s;   
+    transition: 0.5s;
+    border-radius:10%;   
+ }
+
+.content img:hover{   
+    z-index: 2;   
+    transform: scale(1.5);   
+    -moz-transform: scale(1.5) ;   
+    -webkit-transform: scale(1.5) ;   
+    box-shadow: -5px 50px 20px #000000;   
+    -moz-box-shadow: -5px 20px 20px #000000;   
+    -webkit-box-shadow: -5px 20px 20px #000000;   
+} 
+
+#p1{   
+    left: 0px;   
+    top: 150px;
+    width: 240px;
+    height: 180px;   
+    -webkit-transform: rotate(20deg);   
+    -moz-transform: rotate(0deg);   
+    transform: rotate(-3deg);   
+}   
+#p2{   
+    left: 300px;   
+    top: 0px;
+    width: 200px;   
+    height: 150px;     
+    -webkit-transform: rotate(-0deg);   
+    -moz-transform: rotate(-10deg);   
+    transform: rotate(-10deg);   
+}
+#p3{   
+    left: 550px;   
+    top: 60px;
+    width: 220px;   
+    height: 165px;     
+    -webkit-transform: rotate(-10deg);   
+    -moz-transform: rotate(-10deg);   
+    transform: rotate(-10deg);   
+}
+#p4{   
+    left: 970px;   
+    top: 170px;   
+    -webkit-transform: rotate(-10deg);   
+    -moz-transform: rotate(-10deg);   
+    transform: rotate(-5deg) ;   
+}
+#p5{   
+    left: 0px;   
+    top: 350px;
+    width: 240px;
+    height: 180px;   
+    -webkit-transform: rotate(-10deg);   
+    -moz-transform: rotate(-10deg);   
+    transform: rotate(5deg);   
+}
+#p6{   
+    left: 320px;   
+    top: 220px;
+    width: 240px;
+    height: 180px;   
+    -webkit-transform: rotate(-10deg);   
+    -moz-transform: rotate(-10deg);   
+    transform: rotate(10deg);   
+}
+#p7{   
+    left: 590px;   
+    top: 300px;
+    width: 216px;
+    height: 159px;   
+    -webkit-transform: rotate(20deg);   
+    -moz-transform: rotate(50deg);   
+    transform: rotate(-0deg);   
+}
+#p8{   
+    left: 850px;   
+    top: 340px;
+    width: 200px;   
+    height: 150px;     
+    -webkit-transform: rotate(10deg);   
+    -moz-transform: rotate(-10deg);   
+    transform: rotate(10deg);   
+}
+#p9{   
+    left: 20px;   
+    top: 600px;   
+    -webkit-transform: rotate(-30deg);   
+    -moz-transform: rotate(-20deg);   
+    transform: rotate(-10deg);   
+}
+#p10{   
+    left: 250px;   
+    top: 450px;   
+    -webkit-transform: rotate(-10deg);   
+    -moz-transform: rotate(-20deg);   
+    transform: rotate(-25deg);   
+}
+#p11{   
+    left: 630px;   
+    top: 530px;
+    width: 240px;
+    height: 180px;   
+    -webkit-transform: rotate(-10deg);   
+    -moz-transform: rotate(-20deg);   
+    transform: rotate(10deg);   
+}
+#p12{   
+    left: 400px;   
+    top: 520px;   
+    -webkit-transform: rotate(-10deg);   
+    -moz-transform: rotate(-20deg);   
+    transform: rotate(15deg);   
+}
+#p13{   
+    left: 930px;   
+    top: 500px;
+    width: 250px;
+    height: 185px;   
+    -webkit-transform: rotate(-10deg);   
+    -moz-transform: rotate(-20deg);   
+    transform: rotate(-5deg);   
+}
+#video {
+	width:1200px;
+	height:600px;
+	float:right;
+	margin:8px 0px;
+}
+#TV{width: 1200px;
+    height: 600px; 
+	background-image:url(../image_Youth/TV.png );
+    background-size:100% 100%;	}
+#vLocation{
+	width: 640px;
+	height: 360px;
+	margin: 180px 190px ;
+	float: left;
+}
+#to_top{
+    padding:15px; 
+	font:25px arial; 
+	text-align:center;  
+    background:#06c; 
+	position:absolute; 
+	cursor:pointer; 
+	color:#fff
+	}
+#footer{
+	width: 800px;
+	text-align: center;
+	background-color: white;
+	margin: 20px 200px;
+	float: right;
+	font-size: 20px;
+	padding: 5px;
+	color:#00BFFF;
+	border-radius:50%;
+}

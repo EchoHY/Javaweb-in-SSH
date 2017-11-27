@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../../../css/going.css" />
+		<title>最新出行动态</title>
+		<script type="text/javascript" src="../../../js/jquery-3.1.1.js" ></script>
+		<script>
+			function changecolor(a){
+				if(a==1)
+				document.getElementById('back').src='../../../img/backactive.png';
+				if(a==2)
+				document.getElementById('back').src='../../../img/back.png';
+			}
+			function validate(){
+				$.post(
+					"/Youth/myuser/validate",
+					function(data){
+						if(data.result == "islogined"){
+							window.location.href='/Youth/Reply.jsp';
+						}
+						else{
+								alert("亲！请先登录");
+								return;	
+						}			
+					}
+				);
+			}
+		</script>
+	</head>
+
+	<body>
+		<a href="../lmr09232007@163.com.html#newest"><img id="back" src="../../../img/back.png"  onmouseover=changecolor(1) onmouseout=changecolor(2) style="height:60px;margin-top: 30px;margin-left: 30px;;"/></a>
+		<div class="mainbox">
+
+			<p id="artical">寻找一个去星海公园的驴友啊</p>
+			<div><a href="javascript:validate()">我要回复：与他同游</a></div>
+			<div><span class="time">2017-8-10</span><span class="author">刘明睿</span><span class="???"></span></div>
+			<div class="article">
+				<p class="shifubrush" style="text-align: left;">
+    没有别的什么人,只有咱们两个
+</p>
+<p class="shifubrush">
+    <br/>
+</p>
+<p class="shifubrush" style="text-align: left;">
+    我请你坐406路<br/>
+</p>
+<p class="shifubrush">
+    <br/>
+</p>
+<p class="shifubrush" style="text-align: left;">
+    在海边逛完了之后吃个午饭,和你说一说大学新生活<br/>
+</p>
+<section label="Copyright © 2017 playhudong All Rights Reserved." style="
+border:none;
+border-style:none;
+margin:0rem auto;" id="shifu_flo_001" donone="shifuMouseDownPayStyle(&#39;shifu_flo_001&#39;)">
+    <section style="
+overflow:hidden;">
+        <section style="width:100%;
+text-align: left;
+padding: 0rem 1rem;
+box-sizing: border-box;
+font-size: 0.875rem;
+line-height: 1.5;
+height:auto;
+overflow:hidden;
+color: #000;">
+            <section label="Copyright © 2015 playhudong All Rights Reserved." style="
+padding: 10px;
+width: 300px;
+margin:1em auto;
+margin-top: 50px;
+border-style: none;" id="shifu_c_004" donone="shifuMouseDownCard(&#39;shifu_c_004&#39;)">
+                <section style="background-image: url(&quot;http://style.ipaiban.com/stylenew/card/c_004.png&quot;); background-repeat: no-repeat; background-size: 100%; width: 290px; margin-top: -45px; height: 57px; float: left; text-align: center;">
+                    &nbsp;
+                </section><span class="color" style="
+width: 290px;
+min-height: 200px;
+background: #f6f6f5;
+padding: 10px;
+display: block;"><span style="
+border: solid 1px #cccccc;
+width: 270px;
+min-height: 160px;
+padding: 5px;
+display: block;"><img style="
+width: 100%;
+" src="http://style.ipaiban.com/stylenew/card/c_0041.jpg"/>
+                <p style="
+line-height: 1.5;
+font-size: 14px;
+padding: 10px 12px;
+padding-bottom: 15px;
+color: #707070;
+margin-top: 10px;">
+                    一起看看海,看看海边的山,看看海边山上的太阳.
+                </p>
+                <p style="
+line-height: 1.5;
+font-size: 14px;
+padding: 10px 12px;
+padding-bottom: 15px;
+color: #707070;
+margin-top: 10px;">
+                    你现在所看到的太阳,和我三年前看到的,是不是也一样地充满着朝气呢?
+                </p></span></span>
+            </section>
+            <p class="shifubrush">
+                <br/>
+            </p>
+            <p style="margin:0">
+                <br/>
+            </p>
+        </section>
+    </section>
+</section>
+			</div>
+			<img src="../../../img/wan.png" style="width:60px;margin-left: 50%	;"/>
+
+			<hr />
+			<div class="other">
+				
+
+				<div style="text-align: right;color: #999999;"><span style="font-size: 0.8em;">Copyright&nbsp;&copy;&nbsp;2017&nbsp;ECHO回音工作室&nbsp;版权所有</span></div>
+			</div>
+
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../../../css/going.css" />
+		<title>最新出行动态</title>
+		<script>
+			function changecolor(a){
+				if(a==1)
+				document.getElementById('back').src='../../../img/backactive.png';
+				if(a==2)
+				document.getElementById('back').src='../../../img/back.png';
+			}
+		</script>
+	</head>
+
+	<body>
+		<a href="../member.html#newest"><img id="back" src="../../../img/back.png"  onmouseover=changecolor(1) onmouseout=changecolor(2) style="height:60px;margin-top: 30px;margin-left: 30px;;"/></a>
+		<div class="mainbox">
+
+			<p id="artical">这是一个标题</p>
+			<div><span class="time">2017-8-10</span><span class="author">回音管理员</span><span class="???"></span></div>
+			<div class="article">
+				<!--
+                	http://ipaiban.com/bianji.jsp
+            
+                -->
+				我是文章我是文章我是文章
+			</div>
+			<img src="../../../img/wan.png" style="width:60px;margin-left: 50%	;"/>
+
+			<hr />
+			<div class="other">
+				<span style="font-size: 1.1em;">我的其他热门文章</span>
+				<ul>
+					<li><a href="JourneyDiary2.html">我的另一篇文章</a></li>
+					<li><a href="JourneyDiary3.html">我的另一篇文章</a></li>
+				</ul>
+				<hr />
+
+				<div style="text-align: right;color: #999999;"><span style="font-size: 0.8em;">Copyright&nbsp;&copy;&nbsp;2017&nbsp;ECHO回音工作室&nbsp;版权所有</span></div>
+			</div>
+
+		</div>
+	</body>
+
+</html>
